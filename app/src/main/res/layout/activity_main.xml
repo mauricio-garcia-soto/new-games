@@ -6,19 +6,77 @@
     android:fillViewport="true">
 
 <LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="0dp"
-        android:layout_height="?attr/actionBarSize"
-        app:title="Play Juegos"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
         android:background="@color/colorPrimary"
-        ></androidx.appcompat.widget.Toolbar>
-    <TextView
-        android:layout_width="wrap_content"
+        app:titleTextColor="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY JUEGOS"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            ></TextView>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Play Juegos"
-        android:textSize="20dp"></TextView>
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Juegos"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            ></TextView>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="PLAY"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="NEW PLAYER"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="PREFERENCIES"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/white"></Button>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="ABOUT"
+            android:textSize="15dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"></Button>
+    </LinearLayout>
+
 </LinearLayout>
+
 </ScrollView>
