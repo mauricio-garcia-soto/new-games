@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/teal_200</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Widget.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/teal_200</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

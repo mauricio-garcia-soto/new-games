@@ -13,12 +13,10 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:background="@color/colorPrimary"
         app:titleTextColor="@color/white">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PLAY JUEGOS"
             android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_marginTop="25dp"
@@ -37,8 +35,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Play Juegos"
-            android:textSize="30dp"
+            android:textSize="45dp"
             android:layout_margin="20dp"
+            android:fontFamily="@font/courgette_regular"
             ></TextView>
         <Button
             android:id="@+id/button1"
@@ -46,35 +45,27 @@
             android:layout_height="40dp"
             android:text="PLAY"
             android:textSize="15dp"
-            android:background="@color/colorPrimary"
-            android:layout_marginBottom="12dp"
-            android:textColor="@color/white"></Button>
+            android:layout_marginBottom="12dp"></Button>
         <Button
             android:id="@+id/button2"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:text="NEW PLAYER"
             android:textSize="15dp"
-            android:background="@color/colorPrimary"
-            android:layout_marginBottom="12dp"
-            android:textColor="@color/white"></Button>
+            android:layout_marginBottom="12dp"></Button>
         <Button
             android:id="@+id/button3"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:text="PREFERENCIES"
             android:textSize="15dp"
-            android:background="@color/colorPrimary"
-            android:layout_marginBottom="12dp"
-            android:textColor="@color/white"></Button>
+            android:layout_marginBottom="12dp"></Button>
         <Button
             android:id="@+id/button4"
             android:layout_width="300dp"
             android:layout_height="40dp"
             android:text="ABOUT"
-            android:textSize="15dp"
-            android:background="@color/colorPrimary"
-            android:textColor="@color/white"></Button>
+            android:textSize="15dp"></Button>
     </LinearLayout>
 
 </LinearLayout>
